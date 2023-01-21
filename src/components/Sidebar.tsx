@@ -2,7 +2,7 @@ const options = ["home", "about", "projects", "experience", "contact"];
 
 function Sidebar() {
   return (
-    <nav className="w-1/4 bg-gray-800 text-slate-300 flex justify-center items-center">
+    <nav className="w-1/4 bg-gray-800 text-slate-200 flex justify-center items-center">
       <ul className="flex flex-col gap-5 text-2xl">
         {options.map((option) => (
           <li
