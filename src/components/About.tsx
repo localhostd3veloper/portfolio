@@ -2,10 +2,10 @@ function About() {
   return (
     <div className="page px-32 py-9 text-gray-300 bg-[#101010]">
       <h1 className="text-4xl font-semibold">About</h1>
-      <video autoPlay className="w-full h-1/3">
+      <video autoPlay className="w-full h-1/3 filter grayscale">
         <source src={require("../assets/about-video.mp4")} type="video/mp4" />
       </video>
-      <p className=" mt-5 text-3xl font-semibold">Hello there 👋</p>
+      <p className="mt-5 text-3xl font-semibold">Hello there 👋</p>
       <p className="text-xl">
         I'm a full-stack developer with a passion for creating beautiful and
         functional web applications. I'm currently (Till August 2023) studying
