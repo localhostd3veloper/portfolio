@@ -3,7 +3,7 @@ import { socialMediaLinks, typeWriterText } from "../static/static-data";
 
 function Body() {
   return (
-    <div className="w-3/4 flex bg-neutral-900 justify-center items-center gap-12">
+    <div className="page h-screen flex-grow flex justify-center items-center gap-12">
       <div className="bg-main bg-cover bg-center h-72 w-72 rounded-full fucking-animation  hover:shadow-2xl duration-300 filter grayscale"></div>
       <div className="flex flex-col">
         <span className="uppercase text-[3.5rem] font-bold text-white hover:tracking-wide hover:scale-105 duration-500 ease-in-out ">
@@ -27,7 +27,7 @@ function Body() {
               href={social.link}
               target="_blank"
               rel="noreferrer"
-              className="text-xl text-white hover:text-slate-500 duration-300 ease-in-out "
+              className="text-xl text-white hover:text-slate-500 duration-300 ease-in-out"
             >
               <i className={social.icon}></i> {social.name}
             </a>
