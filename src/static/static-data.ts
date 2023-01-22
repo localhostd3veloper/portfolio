@@ -30,9 +30,29 @@ export const typeWriterText = [
 ];
 
 export const sidebarOptions = [
-  "home",
-  "about",
-  "projects",
-  "experience",
-  "contact",
+  {
+    name: "Home",
+    link: "/",
+    icon: "fas fa-home",
+  },
+  {
+    name: "About",
+    link: "/about",
+    icon: "fas fa-user",
+  },
+  {
+    name: "Projects",
+    link: "/projects",
+    icon: "fas fa-project-diagram",
+  },
+  {
+    name: "Experience",
+    link: "/experience",
+    icon: "fas fa-briefcase",
+  },
+  {
+    name: "Contact",
+    link: "/contact",
+    icon: "fas fa-envelope",
+  },
 ];
