@@ -33,17 +33,17 @@ export const sidebarOptions = [
   {
     name: "Home",
     link: "/",
-    icon: "fas fa-home",
+    icon: "fas fa-crown",
   },
   {
     name: "About",
     link: "/about",
-    icon: "fas fa-user",
+    icon: "fas fa-heart",
   },
   {
     name: "Projects",
     link: "/projects",
-    icon: "fas fa-project-diagram",
+    icon: "fas fa-code",
   },
   {
     name: "Experience",
