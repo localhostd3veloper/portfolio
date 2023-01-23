@@ -56,3 +56,39 @@ export const sidebarOptions = [
     icon: "fas fa-envelope",
   },
 ];
+
+export const projectsData = [
+  {
+    name: "TicketLess",
+    description:
+      "A web application that allows users to book tickets for heritage sites.",
+    techStack: ["React", "Python", "FastAPI", "MongoDB"],
+    projectURL: "https://devcubes-ticketless.web.app/",
+  },
+  {
+    name: "Mac OS Clone",
+    description: "A clone of the Mac OS desktop. It is a static website",
+    techStack: ["React", "TailwindCSS", "LottieFiles"],
+    projectURL: "https://mac-os-clone-ten.vercel.app/",
+  },
+  {
+    name: "Notion Replication",
+    description:
+      "A clone of the Notion web application. It is a static website",
+    techStack: ["React", "TailwindCSS"],
+    projectURL: "https://notion-replication.vercel.app/",
+  },
+  {
+    name: "Netflix Landing Page",
+    description: "A clone of the Netflix landing page. It is a static website",
+    techStack: ["React", "TailwindCSS"],
+    projectURL: "https://netflix-clone-2022-chi.vercel.app/",
+  },
+  {
+    name: "Docufied",
+    description:
+      "A web application that allows users to upload documents and get them converted to PDF format. It also allows users to download the converted documents.",
+    techStack: ["React", "Node", "Express", "MongoDB"],
+    projectURL: "https://devcubes-docufied.web.app/",
+  },
+];
