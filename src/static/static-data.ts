@@ -11,7 +11,7 @@ export const socialMediaLinks = [
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/localhostd3veloper/",
+    link: "https://www.instagram.com/gautamsaysfml/",
     icon: "fab fa-instagram",
   },
   {
