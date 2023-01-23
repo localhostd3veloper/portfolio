@@ -3,7 +3,7 @@ import { experienceItems } from "../static/static-data";
 
 function Experience() {
   return (
-    <div className="page px-12 pt-6 h-screen text-gray-300">
+    <div className="sm:w-3/4  px-12 pt-6 h-screen text-gray-300">
       <h1 className="text-4xl font-semibold text-center">My Journey</h1>
       <div style={{ width: "100%", height: "90vh" }} className="text-white">
         <Chrono
