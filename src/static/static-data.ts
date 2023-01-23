@@ -92,3 +92,35 @@ export const projectsData = [
     projectURL: "https://devcubes-docufied.web.app/",
   },
 ];
+export const experienceItems = [
+  {
+    title: "Oct 2022 - Dec 2022", // Date
+    cardTitle: "Frontend Developer Intern", // Job Title
+    cardSubtitle: "Treacle Tech.", // Company Name
+    cardDetailedText: `
+    Replicated complex Figma designs using various frameworks on react. Collaborating with cross-functional teams to define, design, and ship new features. Practiced various cyber security concepts and types of attacks on virtual
+    machines and docker containers.`,
+  },
+  {
+    title: "July 2022 - Sep 2022", // Date
+    cardTitle: "Software Developer Intern", // Job Title
+    cardSubtitle: "Listnr, Inc.", // Company Name
+    cardDetailedText: `Replicating complex UI's from the wireframes and parallelly writing logic for the same. Improved the lighthouse score by reducing the overall bundle size of the webpack which made the platform 30% faster. Co-authored pull requests on GitHub with other engineers on the team`,
+  },
+  {
+    title: "Feb 2022 - Jul 2022", // Date
+    cardTitle: "Full Stack Developer & Chatbot Expert", // Job Title
+    cardSubtitle: "Botosynthesis®", // Company Name
+    cardDetailedText: `Writing bug-free, modular and reusable code for developing Full Stack Applications. Supervising Interns in developing AI-based chatbots on various platforms like - WhatsApp, Facebook Messenger, Instagram, etc. Using the Botosynthesis.ai platform, I created rule-based chatbots with extra automation features`,
+  },
+  {
+    title: "Oct 2020 - Jan 2022",
+    cardTitle: "Full Stack Web Developer Intern",
+    cardSubtitle: "Botosynthesis®",
+    cardDetailedText: `Developed fully-fledged Full-Stack Applications collaborating with other
+    engineers for various companies using MERN.
+    Developed complex conversational APIs and Algorithms. I've also played a major
+    role at the the backend of a few conventional AI platforms.
+    Working on projects and simultaneously creating SDLC for the same`,
+  },
+];
