@@ -1,5 +1,10 @@
+import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
-import { socialMediaLinks, typeWriterText } from "../static/static-data";
+import {
+  sidebarOptions,
+  socialMediaLinks,
+  typeWriterText,
+} from "../static/static-data";
 
 function Body() {
   return (
@@ -9,7 +14,7 @@ function Body() {
         <span className="uppercase text-[3.5rem] font-bold text-white hover:tracking-wide hover:scale-105 duration-500 ease-in-out ">
           Gautam Anand
         </span>
-        <div className="text-3xl flex gap-2 text-white ">
+        <div className="text-3xl flex gap-2 text-white">
           I am a{" "}
           <Typewriter
             options={{
@@ -27,12 +32,26 @@ function Body() {
               href={social.link}
               target="_blank"
               rel="noreferrer"
-              className="text-xl text-white hover:text-slate-500 duration-300 ease-in-out"
+              className="text-xl text-white hover:text-slate-500 duration-300 ease-in-out flex gap-1 items-center"
             >
               <i className={`${social.icon} text-4xl sm:text-base `}></i>{" "}
               <span className="hidden sm:block">{social.name}</span>
             </a>
           ))}
+        </div>
+        <div className="sm:hidden flex gap-2">
+          {sidebarOptions.map(
+            (option, index) =>
+              index !== 0 && (
+                <Link
+                  key={option.name}
+                  to={option.link}
+                  className="text-xl text-white hover:text-slate-500 duration-300 ease-in-out flex gap-1 items-center mt-4"
+                >
+                  <span className="">{option.name}</span>
+                </Link>
+              )
+          )}
         </div>
       </div>
     </div>

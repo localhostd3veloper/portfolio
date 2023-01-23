@@ -3,7 +3,7 @@ import { sidebarOptions } from "../static/static-data";
 
 function Sidebar() {
   return (
-    <nav className="w-[25%] bg-black text-slate-200 flex justify-center items-center">
+    <div className="sm:w-1/4 sm:flex hidden bg-black text-slate-200  justify-center items-center">
       <ul className="flex flex-col gap-5 text-2xl">
         {sidebarOptions.map((option) => (
           <NavLink
@@ -15,7 +15,7 @@ function Sidebar() {
           </NavLink>
         ))}
       </ul>
-    </nav>
+    </div>
   );
 }
 
