@@ -7,7 +7,7 @@ function Projects() {
       <h1 className="text-4xl font-semibold">Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
         {projectsData.map((project, index) => (
-          <ProjectCard key={index} project={project} />
+          <ProjectCard key={project.projectURL} project={project} />
         ))}
       </div>
     </div>

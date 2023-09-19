@@ -6,7 +6,7 @@ function Experience() {
   return (
     <div className="sm:w-3/4 px-3 sm:px-12 pt-6 h-screen text-gray-300">
       <h1 className="text-4xl font-semibold flex justify-between">
-        Experience{" "}
+       Work Experience{" "}
         <Link
           to="/"
           className="underline text-blue-300 block ml-auto sm:hidden text-lg"
