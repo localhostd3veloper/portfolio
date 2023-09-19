@@ -18,18 +18,11 @@ function About() {
       <section>
         <p className="mt-5 text-3xl font-semibold">Hello there 👋</p>
         <p className="text-xl">
-          I'm a full-stack developer with a passion for creating beautiful and
-          functional web applications. I'm currently (Till August 2023) studying
-          in my final year of a Bachelor Technology in Computer Science at{" "}
-          <a
-            href="https://gits.ac.in"
-            target="_blank"
-            rel="noreferrer"
-            className="underline underline-offset-4 hover:text-blue-500 duration-300"
-          >
-            Geetanjali Institute of Technical Studies
-          </a>
-          , Udaipur
+          I have over an year of experience as a frontend developer with a
+          passion for creating beautiful and functional web applications using
+          various UI libraries like TailwindCSS, MaterialUI, AntDesign, and many
+          more.
+          <br />
         </p>{" "}
       </section>
     </div>
