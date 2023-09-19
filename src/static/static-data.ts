@@ -19,6 +19,11 @@ export const socialMediaLinks = [
     link: "https://www.hackerrank.com/gautam_anand",
     icon: "fab fa-hackerrank",
   },
+  {
+    name: "Dev To",
+    link: "https://www.dev.to/localhostd3veloper",
+    icon: "fab fa-dev",
+  },
 ];
 
 export const typeWriterText = [
@@ -27,6 +32,7 @@ export const typeWriterText = [
   "Full Stack Developer",
   "Guitarist",
   "Photographer",
+  "Blogger",
 ];
 
 export const sidebarOptions = [
@@ -44,6 +50,11 @@ export const sidebarOptions = [
     name: "Projects",
     link: "/projects",
     icon: "fas fa-code",
+  },
+  {
+    name: "Blogs",
+    link: "/blogs",
+    icon: "fab fa-dev",
   },
   {
     name: "Experience",
@@ -95,7 +106,7 @@ export const projectsData = [
 export const experienceItems = [
   {
     title: "Oct 2022 - Dec 2022", // Date
-    cardTitle: "Frontend Developer Intern", // Job Title
+    cardTitle: "Frontend Developer", // Job Title
     cardSubtitle: "Treacle Tech.", // Company Name
     cardDetailedText: `
     Replicated complex Figma designs using various frameworks on react. Collaborating with cross-functional teams to define, design, and ship new features. Practiced various cyber security concepts and types of attacks on virtual
@@ -104,7 +115,7 @@ export const experienceItems = [
   },
   {
     title: "July 2022 - Sep 2022", // Date
-    cardTitle: "Software Developer Intern", // Job Title
+    cardTitle: "Software Developer", // Job Title
     cardSubtitle: "Listnr, Inc.", // Company Name
     cardDetailedText: `Replicating complex UI's from the wireframes and parallelly writing logic for the same. Improved the lighthouse score by reducing the overall bundle size of the webpack which made the platform 30% faster. Co-authored pull requests on GitHub with other engineers on the team`,
     url: "https://www.listnr.tech/",
@@ -126,5 +137,24 @@ export const experienceItems = [
     role at the the backend of a few conventional AI platforms.
     Working on projects and simultaneously creating SDLC for the same`,
     url: "https://www.botosynthesis.ai/",
+  },
+];
+
+export const blogs = [
+  {
+    name: "Javascript Essentials 👨🏼‍💻",
+    description: "A collection of Javascript Essentials",
+    hashtags: ["#javascript", "#codenewbie", "#webdev", "#programming"],
+    url: "https://dev.to/localhostd3veloper/javascript-essentials-40he",
+    imgURL:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--n9WDlzPs--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cikhxmaw2liabhjj4ojp.JPG",
+  },
+  {
+    name: "Map, Filter and Reduce in Javascript 👨🏼‍💻",
+    description: "A collection of Higher Order Functions",
+    hashtags: ["#javascript", "#codenewbie", "#programming", "#tutorial"],
+    url: "https://dev.to/localhostd3veloper/map-filter-and-reduce-in-javascript-51fj",
+    imgURL:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--Ss1S5NL4--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3ruql1kl0atctnan11sp.JPG",
   },
 ];
