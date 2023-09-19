@@ -1,19 +1,17 @@
+import { Route, Switch } from "react-router-dom";
+
 import Body from "./components/Body";
 import Sidebar from "./components/Sidebar";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-import { Route, Switch } from "react-router-dom";
 import Contact from "./components/Contact";
-import { useEffect } from "react";
+import Blogs from "./components/Blogs";
+
 function App() {
-  const vh = window.innerHeight * 0.01;
-  useEffect(() => {
-    document.documentElement.style.setProperty("--vh", `${vh}px`, "important");
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+
   return (
-    <div className="h-screen flex bg-[#101010] w-full">
+    <div className="h-[calc(100dvh)] flex bg-[#101010] w-full">
       <Sidebar />
       <Switch>
         <Route exact path="/">
@@ -30,6 +28,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/blogs">
+          <Blogs />
         </Route>
       </Switch>
     </div>
