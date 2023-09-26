@@ -11,7 +11,7 @@ import Blogs from "./components/Blogs";
 function App() {
 
   return (
-    <div className="h-[calc(100dvh)] flex bg-[#101010] w-full">
+    <div className="h-full md:h-[calc(100dvh)] flex bg-[#101010] w-full">
       <Sidebar />
       <Switch>
         <Route exact path="/">
