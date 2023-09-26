@@ -95,13 +95,6 @@ export const projectsData = [
     techStack: ["React", "TailwindCSS"],
     projectURL: "https://netflix-clone-2022-chi.vercel.app/",
   },
-  {
-    name: "Docufied",
-    description:
-      "A web application that allows users to upload documents and get them converted to PDF format. It also allows users to download the converted documents.",
-    techStack: ["React", "Node", "Express", "MongoDB"],
-    projectURL: "https://devcubes-docufied.web.app/",
-  },
 ];
 export const experienceItems = [
   {
@@ -156,5 +149,13 @@ export const blogs = [
     url: "https://dev.to/localhostd3veloper/map-filter-and-reduce-in-javascript-51fj",
     imgURL:
       "https://res.cloudinary.com/practicaldev/image/fetch/s--Ss1S5NL4--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3ruql1kl0atctnan11sp.JPG",
+  },
+  {
+    name: "Javascript Sort: Simplified 👨🏼‍💻",
+    description: "From Basics to writing your own Compartor function",
+    hashtags: ["#compartor", "#javascript", "#webdev", "#tutorial"],
+    url: "https://dev.to/localhostd3veloper/javascript-sort-simplified-akm",
+    imgURL:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--COZnqmKo--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pvtyjw1hku0xp7pfsfio.JPG",
   },
 ];
