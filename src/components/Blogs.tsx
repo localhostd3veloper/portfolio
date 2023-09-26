@@ -3,22 +3,22 @@ import { blogs } from "../static/static-data";
 
 function Blogs() {
   return (
-    <div className="w-100 sm:w-3/4  flex flex-col sm:px-12 px-6 py-6 gap:5 md:gap-16 text-gray-300 ">
+    <div className="w-100 sm:w-3/4  flex flex-col sm:px-3 px-6 py-6 gap:5 md:gap-16 text-gray-300 ">
       <div className="text-2xl font-semibold flex justify-between">
         <span>BLOGS</span>{" "}
         <Link to="/" className="underline text-gray-600 text-base">
           Go Home
         </Link>
       </div>
-      <div className="flex md:flex-row flex-col gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {blogs.map((blog, index) => (
           <div
             key={blog.url}
-            className="md:w-1/3 p-4 bg-gray-800/50 rounded-md shadow-xl"
+            className="p-4 m-3 bg-gray-800/50 rounded-md shadow-xl"
           >
-            <a href={blog.url} target="_blank" rel="noreferrer">
+            <a href={blog.url} target="_blank" rel="noreferrer" className="flex flex-col justify-between">
               <img
-                className="bg-cover rounded-md"
+                className="bg-cover rounded-md h-2/3"
                 src={blog.imgURL}
                 alt={blog.name}
               />
@@ -27,9 +27,9 @@ function Blogs() {
                {index+1}. {blog.name}
               </div>
               <p className="italic">{blog.description}</p>
-              <div className="flex md:flex-row flex-col md:gap-3">
+              <div className="md:gap-3 break-words">
                 {blog.hashtags.map((hashtag) => (
-                  <span key={hashtag} className="text-sm">
+                  <span key={hashtag} className="text-sm mx-1">
                     {hashtag}
                   </span>
                 ))}

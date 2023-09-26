@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Contact() {
   return (
     <div className="sm:w-3/4  h-screen flex flex-col justify-center items-center text-white">
@@ -9,6 +11,9 @@ function Contact() {
           Email
         </a>
       </p>
+      <Link to="/" className="px-2 py-1 font-semibold border-2 rounded-md mt-2">
+        Back to Home
+      </Link>
     </div>
   );
 }

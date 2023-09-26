@@ -8,7 +8,7 @@ import {
 
 function Body() {
   return (
-    <div className="sm:w-3/4 flex md:flex-row flex-col px-10 sm:px-0 justify-center items-center gap-6 sm:gap-12 overflow-hidden">
+    <div className="sm:w-3/4 h-screen flex md:flex-row flex-col px-10 sm:px-0 justify-center items-center gap-6 sm:gap-12 overflow-hidden">
       <div className="bg-main bg-cover bg-center h-72 w-72 rounded-full fucking-animation  hover:shadow-2xl duration-300 filter grayscale"></div>
       <div className="flex flex-col">
         <span className="uppercase text-[3.5rem] font-bold text-white hover:tracking-wide hover:scale-105 duration-500 ease-in-out ">
