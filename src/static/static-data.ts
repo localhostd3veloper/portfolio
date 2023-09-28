@@ -77,6 +77,13 @@ export const projectsData = [
     projectURL: "https://devcubes-ticketless.web.app/",
   },
   {
+    name: "Sound Converge",
+    description:
+      "A Mobile application that searches for any songs across 4 different platforms using a chatbot powered by Dialogflow by google",
+    techStack: ["Flutter", "NodeJS", "Express", "Dialogflow"],
+    projectURL: "https://github.com/cscipher/sound-converge",
+  },
+  {
     name: "Mac OS Clone",
     description: "A clone of the Mac OS desktop. It is a static website",
     techStack: ["React", "TailwindCSS", "LottieFiles"],
