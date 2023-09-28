@@ -12,9 +12,11 @@ function About() {
           Home
         </Link>
       </h1>
-      <video autoPlay className="w-full h-[50%] filter grayscale">
-        <source src={require("../assets/about-video.mp4")} type="video/mp4" />
-      </video>
+      <img
+        src={require("../assets/about.jpg")}
+        alt="gautam-anand"
+        className="rounded-md filter grayscale bg-cover bg-center"
+      />
       <section>
         <p className="mt-5 text-3xl font-semibold">Hello there 👋</p>
         <p className="text-xl">
