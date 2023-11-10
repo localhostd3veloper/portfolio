@@ -9,7 +9,6 @@ import Contact from "./components/Contact";
 import Blogs from "./components/Blogs";
 
 function App() {
-
   return (
     <div className="h-full md:h-[calc(100dvh)] flex bg-[#101010] w-full">
       <Sidebar />
@@ -36,5 +35,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
