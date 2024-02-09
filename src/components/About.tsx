@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 function About() {
   return (
-    <div className="sm:w-3/4 h-screen px-10 sm:px-32 sm:pr-60 sm:pt-12 text-gray-300 bg-[#101010] flex flex-col justify-center">
+    <div className="md:w-full h-dvh  px-3 md:px-10 sm:pt-12 text-gray-800  flex flex-col gap-3 justify-center">
       <h1 className="text-4xl font-semibold flex justify-between">
         About{" "}
         <Link
           to="/"
-          className="underline text-blue-300 block ml-auto sm:hidden text-lg"
+          className="underline text-blue-600 block ml-auto sm:hidden text-lg"
         >
           Home
         </Link>
@@ -15,7 +15,7 @@ function About() {
       <img
         src={require("../assets/about.jpg")}
         alt="gautam-anand"
-        className="rounded-md filter grayscale bg-cover bg-center"
+        className="rounded-md w-full md:w-3/4 lg:w-3/5  bg-cover bg-center"
       />
       <section>
         <p className="mt-5 text-3xl font-semibold">Hello there 👋</p>
