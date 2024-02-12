@@ -74,7 +74,7 @@ export const projectsData = [
     description:
       "A web application that allows users to book tickets for heritage sites.",
     techStack: ["React", "Python", "FastAPI", "MongoDB"],
-    projectURL: "https://devcubes-ticketless.web.app/",
+    projectURL: "https://devcubes-ticketless-66427.web.app/",
   },
   {
     name: "Sound Converge",
