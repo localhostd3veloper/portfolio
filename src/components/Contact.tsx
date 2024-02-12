@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <div className="sm:w-3/4  h-screen flex flex-col justify-center items-center text-white">
+    <div className="sm:w-3/4  h-dvh flex flex-col justify-center items-center  ">
       <h1 className="text-4xl font-bold">Contact</h1>
       <p className="text-xl text-center px-12">
         I have saved a lot of time by not creating a fancy contact form. <br />

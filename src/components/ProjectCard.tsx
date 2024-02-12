@@ -7,7 +7,7 @@ interface Project {
 
 function ProjectCard({ project }: { project: Project }) {
   return (
-    <div className="bg-gray-800/50 rounded-md p-4 flex flex-col justify-between gap-3 shadow-sm shadow-gray-300/50 hover:shadow-lg duration-500 transition-all">
+    <div className="bg-gray-400 rounded-md p-4 flex flex-col justify-between gap-3 shadow-sm shadow-gray-300/50 hover:shadow-lg duration-500 transition-all">
       <h1 className="text-2xl font-semibold hover:text-gray-600 duration-300">
         <a href={project.projectURL} rel="noreferrer" target="_blank">
           {project.name}
@@ -18,7 +18,7 @@ function ProjectCard({ project }: { project: Project }) {
         {project.techStack.map((stack) => (
           <span
             key={stack}
-            className="bg-gray-700 break-words rounded-md px-2 py-1 text-sm mr-2 text-center"
+            className="bg-gray-700 text-gray-300 break-words rounded-md px-2 py-1 text-sm mr-2 text-center"
           >
             {stack}
           </span>

@@ -4,7 +4,7 @@ import { experienceItems } from "../static/static-data";
 
 function Experience() {
   return (
-    <div className="sm:w-3/4 px-3 sm:px-12 pt-6 h-screen text-gray-300">
+    <div className="sm:w-3/4 overflow-auto px-3 sm:px-12 pt-6  text-gray-700">
       <h1 className="text-4xl font-semibold flex justify-between">
        Work Experience{" "}
         <Link
@@ -14,7 +14,7 @@ function Experience() {
           Home
         </Link>
       </h1>
-      <div style={{ width: "100%", height: "90vh" }} className="text-white">
+      <div  className=" ">
         <Chrono
           title="Experience"
           items={experienceItems}
@@ -22,7 +22,7 @@ function Experience() {
           slideShow
           slideItemDuration={3000}
           theme={{
-            primary: "#f5f5f5",
+            primary: "#2e2e2e",
             secondary: "#f5f5f5",
             cardForeColor: "#f5f5f5",
             titleColor: "#f5f5f5",
