@@ -3,7 +3,7 @@ import { blogs } from "../static/static-data";
 
 function Blogs() {
   return (
-    <div className="w-100 sm:w-3/4  flex flex-col sm:px-3 px-6 py-6 gap:5 md:gap-16 text-gray-300 ">
+    <div className="overflow-auto sm:w-3/4  flex flex-col sm:px-3 px-6 py-6 gap:5 md:gap-16 text-gray-700 ">
       <div className="text-2xl font-semibold flex justify-between">
         <span>BLOGS</span>{" "}
         <Link to="/" className="underline text-gray-600 text-base">
@@ -14,7 +14,7 @@ function Blogs() {
         {blogs.map((blog, index) => (
           <div
             key={blog.url}
-            className="p-4 m-3 bg-gray-800/50 rounded-md shadow-xl"
+            className="p-4 m-3 bg-gray-300 border-2 border-gray-400 rounded-md shadow-xl"
           >
             <a href={blog.url} target="_blank" rel="noreferrer" className="flex flex-col justify-between">
               <img
@@ -23,7 +23,7 @@ function Blogs() {
                 alt={blog.name}
               />
 
-              <div className="text-2xl font-semibold hover:text-sky-600 duration-300 mt-4">
+              <div className="text-2xl font-semibold hover:text-sky-800 duration-300 mt-4">
                {index+1}. {blog.name}
               </div>
               <p className="italic">{blog.description}</p>
