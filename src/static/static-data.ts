@@ -1,3 +1,19 @@
+import {
+  dashboardImg1,
+  dashboardImg2,
+  landingImg,
+  landingImg2,
+  loginImg,
+  registerImg,
+  macosXImg,
+  paperGenImg,
+  ticketlessImg,
+  netflixImg,
+  netflixImg2,
+  macosXImg2,
+} from '../assets/_index';
+import { IProject } from '../components/ProjectCard';
+
 export const socialMediaLinks = [
   {
     name: 'Github',
@@ -68,41 +84,55 @@ export const sidebarOptions = [
   },
 ];
 
-export const projectsData = [
+export const projectsData: IProject[] = [
+  {
+    name: 'Institute Dashboard',
+    description:
+      'Institute Dashboard for DOT100 for scheduling, monitoring, evaluating and managing students and ongoing examinations',
+    techStack: ['React', 'NodeJS', 'Express', 'MongoDB'],
+    projectURL: 'http://dashboard.dot100.in',
+    imageURLs: [loginImg, dashboardImg1, dashboardImg2],
+  },
   {
     name: 'TicketLess',
     description:
       'A web application that allows users to book tickets for heritage sites.',
     techStack: ['React', 'Python', 'FastAPI', 'MongoDB'],
     projectURL: 'https://devcubes-ticketless-66427.web.app/',
+    imageURLs: [ticketlessImg],
   },
   {
-    name: 'Sound Converge',
+    name: 'Question Paper Generator',
     description:
-      'A Mobile application that searches for any songs across 4 different platforms using a chatbot powered by Dialogflow by google',
-    techStack: ['Flutter', 'NodeJS', 'Express', 'Dialogflow'],
-    projectURL: 'https://github.com/cscipher/sound-converge',
+      'A Question Paper Generator that generates Question Papers for institutes and universities using AI.',
+    techStack: ['React', 'NodeJS', 'Express', 'MongoDB'],
+    projectURL: 'http://generator.dot100.in',
+    imageURLs: [registerImg, paperGenImg, landingImg2],
   },
   {
     name: 'Mac OS Clone',
     description: 'A clone of the Mac OS desktop. It is a static website',
     techStack: ['React', 'TailwindCSS', 'LottieFiles'],
     projectURL: 'https://mac-os-clone-ten.vercel.app/',
+    imageURLs: [macosXImg, macosXImg2],
   },
-  {
-    name: 'Notion Replication',
-    description:
-      'A clone of the Notion web application. It is a static website',
-    techStack: ['React', 'TailwindCSS'],
-    projectURL: 'https://notion-replication.vercel.app/',
-  },
+
   {
     name: 'Netflix Landing Page',
     description: 'A clone of the Netflix landing page. It is a static website',
     techStack: ['React', 'TailwindCSS'],
     projectURL: 'https://netflix-clone-2022-chi.vercel.app/',
+    imageURLs: [netflixImg, netflixImg2],
+  },
+  {
+    name: 'Coming Soon Page',
+    description: 'A coming soon landing page. It is a static website',
+    techStack: ['React', 'TailwindCSS'],
+    projectURL: 'https://scan-ai.vercel.app/',
+    imageURLs: [landingImg],
   },
 ];
+
 export const experienceItems = [
   {
     title: 'Sep 2023 - Present', // Date
