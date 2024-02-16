@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
+
 import Body from './components/Body';
 import About from './components/About';
 import Experience from './components/Experience';
@@ -5,16 +8,12 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Blogs from './components/Blogs';
 import Header from './components/Header';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
       easing: 'ease-in-out',
-      mirror: true,
       once: true,
       anchorPlacement: 'top-bottom',
     });
