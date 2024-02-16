@@ -1,33 +1,26 @@
-import { Link } from "react-router-dom";
+import SectionWrapper from './SectionWrapper';
+import TitleWrapper from './TitleWrapper';
 
 function About() {
   return (
-    <div className="md:w-full h-dvh  px-3 md:px-10 sm:pt-12 text-gray-800  flex flex-col gap-3 justify-center">
-      <h1 className="text-4xl font-semibold flex justify-between">
-        About{" "}
-        <Link
-          to="/"
-          className="underline text-blue-600 block ml-auto sm:hidden text-lg"
-        >
-          Home
-        </Link>
-      </h1>
+    <SectionWrapper id='about' className='gap-5 justify-center items-center'>
+      <TitleWrapper>About Me</TitleWrapper>
       <img
-        src={require("../assets/about.jpg")}
-        alt="gautam-anand"
-        className="rounded-md w-full md:w-3/4 lg:w-3/5  bg-cover bg-center"
+        src={require('../assets/about.jpg')}
+        alt='gautam-anand'
+        className='rounded-md w-full bg-cover bg-center md:w-3/4 lg:w-1/2'
       />
-      <section>
-        <p className="mt-5 text-3xl font-semibold">Hello there 👋</p>
-        <p className="text-xl">
+      <div className='md:w-3/4 lg:w-1/2 flex flex-col justify-center items-center'>
+        <p className='mt-5 text-xl md:text-3xl font-semibold'>Hello there 👋</p>
+        <p className='text-lg text-gray-600'>
           I have over an year of experience as a frontend developer with a
           passion for creating beautiful and functional web applications using
           various UI libraries like TailwindCSS, MaterialUI, AntDesign, and many
           more.
           <br />
-        </p>{" "}
-      </section>
-    </div>
+        </p>{' '}
+      </div>
+    </SectionWrapper>
   );
 }
 

@@ -1,16 +1,18 @@
-import { projectsData } from "../static/static-data";
-import ProjectCard from "./ProjectCard";
+import { projectsData } from '../static/static-data';
+import ProjectCard from './ProjectCard';
+import SectionWrapper from './SectionWrapper';
+import TitleWrapper from './TitleWrapper';
 
 function Projects() {
   return (
-    <div className="sm:w-3/4 sm:px-12 px-6 py-6 text-gray-700 ">
-      <h1 className="text-4xl font-semibold">Projects</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
-        {projectsData.map((project, index) => (
-          <ProjectCard key={project.projectURL} project={project} />
+    <SectionWrapper id='projects' className='gap-5 items-center justify-center w-full '>
+      <TitleWrapper>Projects</TitleWrapper>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 w-full md:w-4/5'>
+        {projectsData.map((project,index) => (
+          <ProjectCard key={index} project={project} index={index} />
         ))}
       </div>
-    </div>
+    </SectionWrapper>
   );
 }
 

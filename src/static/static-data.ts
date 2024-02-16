@@ -38,32 +38,32 @@ export const typeWriterText = [
 export const sidebarOptions = [
   {
     name: 'Home',
-    link: '/',
+    link: '#',
     icon: 'fas fa-crown',
   },
   {
     name: 'About',
-    link: '/about',
+    link: '#about',
     icon: 'fas fa-heart',
   },
   {
     name: 'Projects',
-    link: '/projects',
+    link: '#projects',
     icon: 'fas fa-code',
   },
   {
     name: 'Blogs',
-    link: '/blogs',
+    link: '#blogs',
     icon: 'fab fa-dev',
   },
   {
     name: 'Experience',
-    link: '/experience',
+    link: '#experience',
     icon: 'fas fa-briefcase',
   },
   {
     name: 'Contact',
-    link: '/contact',
+    link: '#contact',
     icon: 'fas fa-envelope',
   },
 ];
