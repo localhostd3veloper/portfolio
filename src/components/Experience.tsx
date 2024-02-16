@@ -20,13 +20,12 @@ function Experience() {
           classNames={{
             card: 'p-3 divide-y divide-gray-500 rounded-md shadow',
           }}
-          hideControls
           theme={{
             cardBgColor: '#d1d5db',
             titleColorActive: 'blue',
             secondary: '#d1d5db',
           }}
-          useReadMore
+          useReadMore={true}
           slideItemDuration={3000}
           slideShow
         />

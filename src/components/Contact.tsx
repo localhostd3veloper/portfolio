@@ -8,7 +8,7 @@ function Contact() {
       className='h-screen items-center justify-center'
     >
       <TitleWrapper> Contact </TitleWrapper>
-      <p className='text-xl text-center font-medium px-12'>
+      <p data-aos='zoom-up' data-aos-delay='400' className='text-xl text-center font-medium px-12'>
         I have saved a lot of time by not creating a fancy contact form. <br />
         You can just write to me on my{' '}
         <a
@@ -17,7 +17,7 @@ function Contact() {
         >
           Email
         </a>
-        ,
+        , {' '}
         <a
           href='https://www.linkedin.com/in/gautam-anand16/'
           target='_blank'
@@ -26,7 +26,7 @@ function Contact() {
         >
           LinkedIn
         </a>
-        , or even on my{' '}
+        ,or even on my{' '}
         <a
           href='https://instagram.com/gautamsaysfml'
           className='text-blue-500 underline underline-offset-1'
