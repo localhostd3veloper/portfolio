@@ -32,9 +32,6 @@ dependencies:
   aos:
     specifier: 3.0.0-beta.6
     version: 3.0.0-beta.6
-  framer-motion:
-    specifier: ^11.0.5
-    version: 11.0.5(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -44,6 +41,9 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  react-responsive-carousel:
+    specifier: ^3.2.23
+    version: 3.2.23
   react-router-dom:
     specifier: ^5.3.0
     version: 5.3.4(react@18.2.0)
@@ -1704,25 +1704,11 @@ packages:
       postcss-selector-parser: 6.0.15
     dev: false
 
-  /@emotion/is-prop-valid@0.8.8:
-    resolution: {integrity: sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==}
-    requiresBuild: true
-    dependencies:
-      '@emotion/memoize': 0.7.4
-    dev: false
-    optional: true
-
   /@emotion/is-prop-valid@1.2.1:
     resolution: {integrity: sha512-61Mf7Ufx4aDxx1xlDeOm8aFFigGHE4z+0sKCa+IHCeZKiyP9RLD0Mmx7m8b9/Cf37f7NAvQOOJAbQQGVr5uERw==}
     dependencies:
       '@emotion/memoize': 0.8.1
     dev: false
-
-  /@emotion/memoize@0.7.4:
-    resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
-    requiresBuild: true
-    dev: false
-    optional: true
 
   /@emotion/memoize@0.8.1:
     resolution: {integrity: sha512-W2P2c/VRW1/1tLox0mVUalvnWXxavmv/Oum2aPsRcoDJuob75FC3Y8FbpfLwUegRcxINtGUMPq0tFCvYNTBXNA==}
@@ -5460,24 +5446,6 @@ packages:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
     dev: false
 
-  /framer-motion@11.0.5(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Lb0EYbQcSK/pgyQUJm+KzsQrKrJRX9sFRyzl9hSr9gFG4Mk8yP7BjhuxvRXzblOM/+JxycrJdCDVmOQBsjpYlw==}
-    peerDependencies:
-      react: ^18.0.0
-      react-dom: ^18.0.0
-    peerDependenciesMeta:
-      react:
-        optional: true
-      react-dom:
-        optional: true
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      tslib: 2.6.2
-    optionalDependencies:
-      '@emotion/is-prop-valid': 0.8.8
-    dev: false
-
   /fresh@0.5.2:
     resolution: {integrity: sha512-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q==}
     engines: {node: '>= 0.6'}
@@ -8763,6 +8731,13 @@ packages:
       scheduler: 0.23.0
     dev: false
 
+  /react-easy-swipe@0.0.21:
+    resolution: {integrity: sha512-OeR2jAxdoqUMHIn/nS9fgreI5hSpgGoL5ezdal4+oO7YSSgJR8ga+PkYGJrSrJ9MKlPcQjMQXnketrD7WNmNsg==}
+    engines: {node: '>= 6'}
+    dependencies:
+      prop-types: 15.8.1
+    dev: false
+
   /react-error-overlay@6.0.11:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
     dev: false
@@ -8782,6 +8757,14 @@ packages:
   /react-refresh@0.11.0:
     resolution: {integrity: sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /react-responsive-carousel@3.2.23:
+    resolution: {integrity: sha512-pqJLsBaKHWJhw/ItODgbVoziR2z4lpcJg+YwmRlSk4rKH32VE633mAtZZ9kDXjy4wFO+pgUZmDKPsPe1fPmHCg==}
+    dependencies:
+      classnames: 2.5.1
+      prop-types: 15.8.1
+      react-easy-swipe: 0.0.21
     dev: false
 
   /react-router-dom@5.3.4(react@18.2.0):
