@@ -24,13 +24,15 @@ function Body() {
           />
         </div>
         <div className='flex flex-wrap gap-3 mt-6'>
-          {socialMediaLinks.map((social) => (
+          {socialMediaLinks.map((social, index) => (
             <a
-              key={social.name}
+              data-aos='fade-down'
+              data-aos-delay={index * 200}
+              key={index}
               href={social.link}
               target='_blank'
               rel='noreferrer'
-              className='px-3 py-1 border border-gray-500 rounded-md text-base md:text-xl hover:text-slate-500 hover:scale-105 hover:-translate-y-1 duration-300 ease-in-out flex-wrap flex gap-1 items-center'
+              className='px-3 py-1 border border-gray-500 rounded-md text-base md:text-xl hover:text-slate-500 hover:scale-105 hover:-translate-y-1 duration-500 ease-in-out flex-wrap flex gap-1 items-center'
             >
               <i className={`${social.icon} text-4xl sm:text-base `}></i>{' '}
               <p className='hidden sm:block'>{social.name}</p>

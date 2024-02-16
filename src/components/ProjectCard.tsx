@@ -10,8 +10,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
   return (
     <div
       data-aos='fade-up'
-      data-aos-duration={2000}
-      data-aos-delay={index * 300}
+      data-aos-delay={index * 200}
       className='bg-gray-300 rounded-md p-4 flex flex-col justify-between gap-3 shadow  shadow-gray-300/50 hover:shadow-lg duration-500 transition-all'
     >
       <h1 className='text-2xl font-semibold hover:text-gray-600 duration-300'>
