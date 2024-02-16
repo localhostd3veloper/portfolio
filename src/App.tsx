@@ -15,6 +15,7 @@ function App() {
       duration: 1000,
       easing: 'ease-in-out',
       mirror: true,
+      once: true,
       anchorPlacement: 'top-bottom',
     });
   }, []);
