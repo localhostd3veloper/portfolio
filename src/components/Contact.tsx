@@ -28,7 +28,7 @@ function Contact() {
         </a>
         ,or even on my{' '}
         <a
-          href='https://instagram.com/gautamsaysfml'
+          href='https://instagram.com/gautamm.exe'
           className='text-blue-500 underline underline-offset-1'
         >
           Instagram

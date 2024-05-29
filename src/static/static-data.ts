@@ -27,7 +27,7 @@ export const socialMediaLinks = [
   },
   {
     name: 'Instagram',
-    link: 'https://www.instagram.com/gautamsaysfml/',
+    link: 'https://www.instagram.com/gautamm.exe/',
     icon: 'fab fa-instagram',
   },
   {
