@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       // background Image
       backgroundImage: (theme) => ({
-        main: "url('/src/assets/profile.jpeg')",
+        main: "url('/src/assets/profile.jpg')",
       }),
     },
   },
