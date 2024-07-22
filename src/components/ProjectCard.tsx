@@ -10,10 +10,11 @@ export interface IProject {
 function ProjectCard({ project, index }: { project: IProject; index: number }) {
   const { name, description, techStack, projectURL, imageURLs } = project;
   return (
-    <div
+    <a
+      href={projectURL}
       data-aos='fade-up'
       data-aos-delay={index * 200}
-      className='bg-gray-300 rounded-md p-4 flex flex-col gap-2 shadow shadow-gray-300/50 hover:shadow-lg duration-500 transition-all'
+      className='bg-gray-300 rounded-md p-3 flex flex-col gap-2 shadow shadow-gray-300/50 duration-300 hover:scale-105'
     >
       <Carousel
         showThumbs={false}
@@ -47,7 +48,7 @@ function ProjectCard({ project, index }: { project: IProject; index: number }) {
           </span>
         ))}
       </div>
-    </div>
+    </a>
   );
 }
 

@@ -6,7 +6,7 @@ function SectionWrapper(props: {
   return (
     <section
       data-aos='fade-up'
-      className={`flex flex-col ${props.className? props.className :   ''}`}
+      className={`flex flex-col h-screen ${props.className? props.className :   ''}`}
       id={props.id}
     >
       {props.children}

@@ -1,7 +1,6 @@
 import Typewriter from 'typewriter-effect';
 import { socialMediaLinks, typeWriterText } from '../static/static-data';
 import SectionWrapper from './SectionWrapper';
-
 function Body() {
   return (
     <SectionWrapper className='justify-center gap-5 items-center h-[calc(100vh-80px)]'>
